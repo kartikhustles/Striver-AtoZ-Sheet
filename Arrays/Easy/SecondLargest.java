@@ -1,5 +1,3 @@
-import java.io.*;
-
 class SecondLargest {
     static private int secondSmallest(int[] arr, int n) {
         if (n < 2) {
