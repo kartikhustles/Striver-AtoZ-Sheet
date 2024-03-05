@@ -23,7 +23,7 @@ public class RearrangeArrayElements {
         return nums;
     }
 
-    public int[] rearrangeArray(int[] nums) {
+    public int[] rearrangeArray2(int[] nums) {
         int n = nums.length;
         int[] ans = new int[n];
         int pos = 0, neg = 1;
@@ -39,7 +39,7 @@ public class RearrangeArrayElements {
         return ans;
     }
 
-    public int[] rearrangeArray(int[] nums) {
+    public int[] rearrangeArray3(int[] nums) {
         int n = nums.length;
         int pos = 0, neg = 1;
         while (pos < n && neg < n) {
