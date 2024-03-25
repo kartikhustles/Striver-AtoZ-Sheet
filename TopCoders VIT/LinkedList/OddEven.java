@@ -10,7 +10,7 @@ class Node {
 }
 
 public class OddEven {
-    public Node oddEvenList(Node head) {
+    public static Node oddEvenList(Node head) {
         if (head == null || head.next == null) {
             return head;
         }
