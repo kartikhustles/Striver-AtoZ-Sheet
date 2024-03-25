@@ -40,6 +40,8 @@ public class ReverseKElements {
         Scanner sc = new Scanner(System.in);
         Node node1 = new Node(-1);
 
+        int k = sc.nextInt();
+
         int val;
 
         Node temp1 = node1;
@@ -50,7 +52,7 @@ public class ReverseKElements {
         }
         node1 = node1.next;
 
-        Node ans = reverse(node1, val);
+        Node ans = reverse(node1, k);
 
         while (ans != null) {
             System.out.print(ans.data + " -> ");

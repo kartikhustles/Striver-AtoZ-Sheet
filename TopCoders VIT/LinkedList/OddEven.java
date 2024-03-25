@@ -44,12 +44,12 @@ public class OddEven {
             current = current.next;
         }
 
-        OddEven solution = new OddEven();
-        Node reorderedList = solution.oddEvenList(dummy.next);
+        Node reorderedList = oddEvenList(dummy.next);
 
         while (reorderedList != null) {
-            System.out.print(reorderedList.val + " ");
+            System.out.print(reorderedList.val + " -> ");
             reorderedList = reorderedList.next;
         }
+        System.out.print("NULL");
     }
 }
